@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Creepster&family=Fredoka:wght@500&family=Gayathri&family=Lexend+Mega&family=MuseoModerno&family=Nabla&family=Nosifer&family=Pacifico&family=Permanent+Marker&family=Trade+Winds&display=swap");
+
+body {
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+#gameTitle {
+  font-family: "Fredoka";
+  text-align: center;
+  margin: 0 auto;
+  font-size: 5em;
+  color: maroon;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.collection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.imageSrc {
+  border-radius: 50px;
+}
+
+.record {
+  height: 200px;
+  width: 200px;
+  background-color: goldenrod;
+  border-radius: 100px;
+  background-image: url(assets/Record.jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.record:hover {
+  animation: roll 11s infinite;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(2880deg);
+  }
+}
+
+.record img {
+  opacity: 0;
+}
+
+.record.clicked img,
+.record.checked img {
+  opacity: 1;
+  border-radius: 44px;
+}
+
+#great-memory {
+  font-size: 8em;
+  color: turquoise;
+  font-family: "Fredoka";
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  margin: 80px 0 0 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-shadow: 3px 3px 3px #000000;
+  opacity: 1;
+}

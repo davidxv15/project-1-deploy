@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../../../../Desktop/Memory-game-images"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.port": 5504,
+    "liveServer.settings.multiRootWorkspaceName": "Project-1"
+  }
+}
