@@ -87,7 +87,6 @@ body {
   }
 
   .collection {
-    margin-top: 10px;
-    transform: translateY(-95%);
+    transform: translateY(-300px);
   }
 }
