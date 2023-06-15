@@ -1,62 +1,62 @@
 const cards = [
   {
     instrument: "telecaster",
-    imageSrc: "assets/Telecaster.jpg",
+    imageSrc: "assets/images/Telecaster.jpg",
     altText: "sunburst-guitar",
   },
   {
     instrument: "telecaster",
-    imageSrc: "assets/Telecaster.jpg",
+    imageSrc: "assets/images/Telecaster.jpg",
     altText: "sunburst-guitar",
   },
   {
     instrument: "stratocaster",
-    imageSrc: "assets/Stratocaster.jpg",
+    imageSrc: "assets/images/Stratocaster.jpg",
     altText: "black-guitar",
   },
   {
     instrument: "stratocaster",
-    imageSrc: "assets/Stratocaster.jpg",
+    imageSrc: "assets/images/Stratocaster.jpg",
     altText: "black-guitar",
   },
   {
     instrument: "bass",
-    imageSrc: "assets/Precision.jpg",
+    imageSrc: "assets/images/Precision.jpg",
     altText: "black-bass",
   },
   {
     instrument: "bass",
-    imageSrc: "assets/Precision.jpg",
+    imageSrc: "assets/images/Precision.jpg",
     altText: "black-bass",
   },
   {
     instrument: "mustang",
-    imageSrc: "assets/Mustang.jpg",
+    imageSrc: "assets/images/Mustang.jpg",
     altText: "alder-wood-guitar",
   },
   {
     instrument: "mustang",
-    imageSrc: "assets/Mustang.jpg",
+    imageSrc: "assets/images/Mustang.jpg",
     altText: "alder-wood-guitar",
   },
   {
     instrument: "jazzmaster",
-    imageSrc: "assets/Jazzmaster.jpg",
+    imageSrc: "assets/images/Jazzmaster.jpg",
     altText: "white-guitar",
   },
   {
     instrument: "jazzmaster",
-    imageSrc: "assets/Jazzmaster.jpg",
+    imageSrc: "assets/images/Jazzmaster.jpg",
     altText: "white-guitar",
   },
   {
     instrument: "jaguar",
-    imageSrc: "assets/Jaguar.jpg",
+    imageSrc: "assets/images/Jaguar.jpg",
     altText: "teal-guitar",
   },
   {
     instrument: "jaguar",
-    imageSrc: "assets/Jaguar.jpg",
+    imageSrc: "assets/images/Jaguar.jpg",
     altText: "teal-guitar",
   },
 ];
