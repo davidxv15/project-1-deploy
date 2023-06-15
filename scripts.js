@@ -152,7 +152,7 @@ function resetGame() {
 }
 function startTimer() {
   clearTimeout(countdownTimer);
-  countdownTimer = setTimeout(resetGame, 60000);
+  countdownTimer = setTimeout(resetGame, 120000);
 }
 
 function shuffleCards(cardArray) {
